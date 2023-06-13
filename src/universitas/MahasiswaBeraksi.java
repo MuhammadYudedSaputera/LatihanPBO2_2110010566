@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package universitas;
 
-/**
- *
- * @author ASUS
- */
+
 public class MahasiswaBeraksi {
-    
+     public static void main (String[] args) {
+        
+        Mahasiswa yuded = new Mahasiswa ;
+        
+        System.out.println ("nama mahasiswa: "+ yuded.getnama ());
+        System.out.println ("nama npm: "+ yuded.getnpm ());
+        System.out.println ("nama prodi: "+ yuded.getprodi ());
+    }
 }
